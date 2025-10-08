@@ -1,18 +1,35 @@
 <!doctype html>
 <html>
 <head>
-    <meta name='viewport' content='width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover' />
-    <meta charset='utf-8'>
-    <link rel="stylesheet" type="text/css" href="styles.css">
-    <link rel="manifest" href="manifest.json">
-    <style></style>
-    <title>AutoGoDraw</title>
-    <script src="playcanvas-stable.min.js"></script>
-    <script src="__settings__.js"></script>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no, viewport-fit=cover" />
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <link rel="manifest" href="manifest.json">
+  <title>AutoGoDraw</title>
+  <script src="playcanvas-stable.min.js"></script>
+  <script src="__settings__.js"></script>
+
+  <style>
+    html, body {
+      height: 100%;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      align-items: center;
+      justify-content: center; /* centers horizontally */
+    }
+
+    canvas {
+      display: block;
+      max-width: 100%;
+      height: auto;
+    }
+  </style>
 </head>
+
 <body>
-    <script src="__modules__.js"></script>
-    <script src="__start__.js"></script>
-    <script src="__loading__.js"></script>
+  <script src="__modules__.js"></script>
+  <script src="__start__.js"></script>
+  <script src="__loading__.js"></script>
 </body>
 </html>
