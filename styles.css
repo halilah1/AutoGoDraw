@@ -16,14 +16,17 @@ body {
     -webkit-tap-highlight-color: transparent;
 }
 
+/* Override to center the canvas properly */
 #application-canvas {
-    display: block;
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+  position: static !important;
+  margin: 0 auto !important;
+  display: block !important;
+  top: unset !important;
+  left: unset !important;
+  right: unset !important;
+  bottom: unset !important;
 }
+
 #application-canvas.fill-mode-NONE {
     margin: auto;
 }
