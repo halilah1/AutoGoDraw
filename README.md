@@ -5,7 +5,7 @@
 ## 🌐 Play Online
 
 Play the game instantly here:  
-👉 [**https://halilah1.github.io/AutoGoDraw**](https://halilah1.github.io/AutoGoDraw)
+👉 [**http://halilah1.github.io/AutoGoDraw**](http://halilah1.github.io/AutoGoDraw)
 
 ---
 
